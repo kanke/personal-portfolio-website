@@ -10,7 +10,8 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 
-## Font:- Font Awesome
+## Icons:- [Font Awesome](http://fontawesome.io/)
 
-Font Awesome used for icons http://fontawesome.io/
+Font Awesome used for icons.
 
+## SVG Devpost Icon:- [Devpost Icon](https://gist.github.com/nealrs/868af1e0ff6d60b7d638)
