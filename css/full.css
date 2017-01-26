@@ -34,11 +34,10 @@ body {
     max-width: 100%;
 }
 
- .inner a {
+.inner a {
     max-width: 100%;
-     color: #999;
+    color: #999;
 }
-
 
 .padded {
     padding: 10px;
@@ -62,7 +61,7 @@ div i {
  * Body
  */
 
-div .body{
+div .body {
 
 }
 
@@ -70,13 +69,11 @@ div .body{
  * Link
  */
 
-
-
 /* GLOBAL STYLES */
-body{
+body {
     /*background: #333;*/
     /*color: #fff;*/
-    color:#333;
+    color: #333;
     background: transparent;
     font-family: monospace;
     padding-top: 5em;
@@ -93,34 +90,56 @@ body{
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-    animation:
-            typing 3.5s steps(40, end),
-            blink-caret .75s step-end infinite;
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end 2s;
 }
 
- .typewriter h4 {
+.typewriter p {
+
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-    animation:
-            typing 3.5s steps(40, end),
-            blink-caret .75s step-end infinite;
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    -webkit-animation-delay: 8s;
+    animation-fill-mode: both;
+
+}
+
+.typewriter p:nth-child(2) {
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end 4s;
+    -webkit-animation-delay: 5s;
+    animation-fill-mode: both;
 }
 
 /* The typing effect */
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
 }
-
 
 @media (min-width: 768px) {
     /* Pull out the header and footer */
@@ -129,8 +148,6 @@ body{
         bottom: 0;
         margin: 500px 0px 25px 300px;
     }
-
-
 
     /* Handle the widths */
     .mastfoot {
