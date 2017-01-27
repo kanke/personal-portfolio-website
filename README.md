@@ -15,3 +15,7 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 Font Awesome used for icons.
 
 ## SVG Devpost Icon:- [Devpost Icon](https://gist.github.com/nealrs/868af1e0ff6d60b7d638)
+
+## Maps:- [Snazzy maps(https://snazzymaps.com/)
+
+Snazzy Maps:- Used for maps background
